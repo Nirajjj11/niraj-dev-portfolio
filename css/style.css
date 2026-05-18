@@ -75,11 +75,14 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.typing {
-  color: #8dcfff;
-  font-size: 1.6rem;
-  font-weight: 600;
-  margin-top: 15px;
+.typing{
+    height: 60px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #00d4ff;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
 .hero p {

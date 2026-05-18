@@ -16,12 +16,16 @@ new Typed('.typing', {
             'MERN Developer',
             'Backend Engineer',
             'Python Developer',
-            'ML Engineer',
+            'ML Engineer'
       ],
 
       typeSpeed: 70,
       backSpeed: 50,
-      loop: true
+      backDelay: 1200,
+      smartBackspace: true,
+      loop: true,
+      showCursor: true,
+      cursorChar: '|'
 
 });
 
